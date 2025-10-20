@@ -8,6 +8,14 @@ Technologies : LangChain, FAISS, Hugging Face, Streamlit
 
 import os
 import streamlit as st
+import pkgutil, importlib
+#TEMPORAIRE
+def try_version(pkg_name, import_name=None):
+    try:
+        m = importlib.import_module(import_name or pkg_name)
+        return getattr(m, "__version__", "installed (no __version__)")
+    except Exception as e:
+        return f"NOT INSTALLED / import error: {e}"
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
