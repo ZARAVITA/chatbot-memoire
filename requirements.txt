@@ -1,27 +1,25 @@
-# ==================== CORE DEPENDENCIES ====================
+# ==================== CORE ====================
 streamlit>=1.32.0
-python-dotenv>=1.0.0
 
-# ==================== LANGCHAIN ====================
+# ==================== LANGCHAIN (versions compatibles) ====================
 langchain>=0.1.20
-langchain-community>=0.0.30
+langchain-community>=0.0.38
+langchain-core>=0.1.52
+langchain-text-splitters>=0.0.1
 langchain-huggingface>=0.0.1
-langchain-text-splitters>=0.1.2
 
 # ==================== HUGGING FACE ====================
 huggingface-hub>=0.23.0
 sentence-transformers>=2.3.0
 transformers>=4.36.0
 
-
 # ==================== VECTOR STORE ====================
 faiss-cpu>=1.7.4
 
-# ==================== PDF PROCESSING ====================
+# ==================== PDF ====================
 pypdf>=4.0.0
 
 # ==================== UTILITIES ====================
-numpy>=1.24.0
-torch>=2.0.1+cpu
-tqdm
-accelerate
+numpy>=1.24.0,<2.0.0
+torch>=2.0.0
+tqdm>=4.65.0
