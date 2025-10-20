@@ -9,10 +9,10 @@ langchain-huggingface>=0.0.1
 langchain-text-splitters>=0.1.2
 
 # ==================== HUGGING FACE ====================
-huggingface-hub
+huggingface-hub>=0.23.0
 sentence-transformers>=2.3.0
 transformers>=4.36.0
-faiss-cpu
+
 
 # ==================== VECTOR STORE ====================
 faiss-cpu>=1.7.4
@@ -23,3 +23,5 @@ pypdf>=4.0.0
 # ==================== UTILITIES ====================
 numpy>=1.24.0
 torch>=2.0.1+cpu
+tqdm
+accelerate
