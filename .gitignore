@@ -1,0 +1,52 @@
+tmp/*
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# ==================== ENVIRONMENT VARIABLES ====================
+.env
+.env.local
+
+# ==================== VECTOR STORE ====================
+vector_store/
+*.faiss
+*.pkl
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== STREAMLIT ====================
+.streamlit/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+
+# ==================== LOGS ====================
+*.log
+
+# ==================== JUPYTER ====================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== DATA (si confidentiel) ====================
+# Décommentez la ligne suivante si votre mémoire est confidentiel
+# data/memoire.pdf
