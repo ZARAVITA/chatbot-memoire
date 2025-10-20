@@ -14,7 +14,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
 #from langchain.chains import RetrievalQA
-from langchain_community.chains import RetrievalQA
+#from langchain_community.chains import RetrievalQA
+from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 # Chargement des variables d'environnement
