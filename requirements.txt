@@ -3,15 +3,16 @@ streamlit>=1.32.0
 python-dotenv>=1.0.0
 
 # ==================== LANGCHAIN ====================
-langchain>=0.1.0
-langchain-community>=0.0.20
+langchain>=0.1.20
+langchain-community>=0.0.30
 langchain-huggingface>=0.0.1
-langchain-text-splitters>=0.0.1
+langchain-text-splitters>=0.1.40
 
 # ==================== HUGGING FACE ====================
-huggingface-hub>=0.20.0
+huggingface-hub
 sentence-transformers>=2.3.0
 transformers>=4.36.0
+fais-cpu
 
 # ==================== VECTOR STORE ====================
 faiss-cpu>=1.7.4
