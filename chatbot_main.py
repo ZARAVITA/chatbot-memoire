@@ -36,7 +36,8 @@ VECTOR_STORE_PATH = "vector_store/faiss_index"
 HF_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")
 
 # Modèle LLM et Embeddings
-LLM_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
+#LLM_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
+LLM_MODEL = "meta-llama/Llama-3.1-8B"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Paramètres de découpage du texte
